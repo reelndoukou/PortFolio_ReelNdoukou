@@ -5,33 +5,34 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>PortFolio RéeelNdoukou</title>
 
-  <link rel="stylesheet" href="semanstyle.css">
+  <!-- <link rel="stylesheet" href="semanstyle.css"> -->
+   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<header id="header">
-    <h1>Bienvenue sur mon Portfolio</h1>
+<header id="header" class="hero">
+    <h1 class="hero-title">Bienvenue sur mon Portfolio</h1>
 
-    <nav>
-        <ul>
-            <li><a href="#presentation">Présentation</a></li>
-            <li><a href="#competences">Mes compétences</a></li>
-            <li><a href="#contacts">Contacts</a></li>
+    <nav class="navbar">
+        <ul class="nav-list">
+            <li class="nav-item"><a href="#presentation">Présentation</a></li>
+            <li class="nav-item"><a href="#competences">Mes compétences</a></li>
+            <li class="nav-item"><a href="#contacts">Contacts</a></li>
         </ul>
     </nav>
 
 </header>
 
-<main>
+<main class="container">
 
-    <article>
+    <article class="card">
         <h2 id="presentation">Qui suis-je ?</h2>
 
-        <p>Je m'appelle NDOUKOU MAMBOU Don Réel, étudiant en deuxième année de licence en Genie Logiciel à l'Institut de Gestion et de Technologie IGT et actuellement en formation accèlerer en FullStack chez Akieni Academy pour leur Cohorte 2 dedié à la formation des jeunes aux metiers du numerique, je suis passionné par le developpement Web et Mobile.</p>
+        <p class="para">Je m'appelle NDOUKOU MAMBOU Don Réel, étudiant en deuxième année de licence en Genie Logiciel à l'Institut de Gestion et de Technologie IGT et actuellement en formation accèlerer en FullStack chez Akieni Academy pour leur Cohorte 2 dedié à la formation des jeunes aux metiers du numerique, je suis passionné par le developpement Web et Mobile.</p>
 
-        <section>
+        <section class="skills-section">
             <h3 id="competences">Mes compétences</h3>
 
-            <ul>
+            <ul class="skills-list">
                 <li>HTML5</li>
                 <li>CSS3</li>
                 <li>JavaScript</li>
@@ -41,10 +42,10 @@
         </section>
     </article>
 
-    <aside>
+   <aside class="card aside-card">
         <h2>Informations complémentaires</h2>
 
-        <p>A part ma passion pour la technologie et le développement, je suis aussi photographe professionnel dans les photos shooting j'offre mes services dans des évenements:</p>
+        <p class="para">A part ma passion pour la technologie et le développement, je suis aussi photographe professionnel dans les photos shooting j'offre mes services dans des évenements:</p>
         
         <ul>
             <li>Mariages</li>
@@ -55,12 +56,12 @@
         </ul>
     </aside>
 
-    <section id="contacts">
+    <section id="contacts" class="card contact-section">
 
         <h2>Me contacter</h2>
-        <form>
+        <form class="contact-form">
             
-            <fieldset>
+            <fieldset class="form-group">
                 <legend>Information de contacts</legend>
                 
                 <p>
@@ -87,7 +88,7 @@
                 </p>
             </fieldset>
 
-            <button type="submit">
+            <button type="submit" class="btn">
                 Envoyer
             </button>
 
@@ -95,7 +96,7 @@
     </section>
 </main>
 
-<footer>
+<footer class="footer">
     <p>@ 2026 mon portfolio</p>
 
     <p><a href="#header">Remonter</a></p>
